@@ -1,0 +1,20 @@
+{
+  "name": "olivertwist",
+  "version": "1.0.0",
+  "description": "Oliver Twist themed slack bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.13.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2",
+    "simple-json-db": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
